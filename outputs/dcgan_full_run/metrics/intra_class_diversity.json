@@ -1,0 +1,62 @@
+{
+  "T-shirt/top": {
+    "class_id": 0,
+    "real_l2_pairwise_distance": 17.5094,
+    "synth_l2_pairwise_distance": 17.1009,
+    "ratio_percentage": 97.67
+  },
+  "Trouser": {
+    "class_id": 1,
+    "real_l2_pairwise_distance": 13.4673,
+    "synth_l2_pairwise_distance": 12.974,
+    "ratio_percentage": 96.34
+  },
+  "Pullover": {
+    "class_id": 2,
+    "real_l2_pairwise_distance": 18.8547,
+    "synth_l2_pairwise_distance": 18.5142,
+    "ratio_percentage": 98.19
+  },
+  "Dress": {
+    "class_id": 3,
+    "real_l2_pairwise_distance": 16.4315,
+    "synth_l2_pairwise_distance": 16.3895,
+    "ratio_percentage": 99.74
+  },
+  "Coat": {
+    "class_id": 4,
+    "real_l2_pairwise_distance": 17.6821,
+    "synth_l2_pairwise_distance": 18.2205,
+    "ratio_percentage": 103.05
+  },
+  "Sandal": {
+    "class_id": 5,
+    "real_l2_pairwise_distance": 17.2163,
+    "synth_l2_pairwise_distance": 16.322,
+    "ratio_percentage": 94.81
+  },
+  "Shirt": {
+    "class_id": 6,
+    "real_l2_pairwise_distance": 19.3477,
+    "synth_l2_pairwise_distance": 18.62,
+    "ratio_percentage": 96.24
+  },
+  "Sneaker": {
+    "class_id": 7,
+    "real_l2_pairwise_distance": 13.8709,
+    "synth_l2_pairwise_distance": 13.3466,
+    "ratio_percentage": 96.22
+  },
+  "Bag": {
+    "class_id": 8,
+    "real_l2_pairwise_distance": 21.8076,
+    "synth_l2_pairwise_distance": 21.2126,
+    "ratio_percentage": 97.27
+  },
+  "Ankle boot": {
+    "class_id": 9,
+    "real_l2_pairwise_distance": 17.7272,
+    "synth_l2_pairwise_distance": 18.0106,
+    "ratio_percentage": 101.6
+  }
+}

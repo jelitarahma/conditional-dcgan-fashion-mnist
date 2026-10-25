@@ -1,0 +1,10 @@
+run_name,factor,param_changed,loss_g,loss_d,synthetic_accuracy,synthetic_f1
+hparam_baseline_nz100,Baseline (Control),Default reference,1.3237,1.0503,74.78%,73.48%
+hparam_nz_50,Latent Dimension (nz),model.nz=50,1.2046,1.1357,75.08%,74.40%
+hparam_nz_200,Latent Dimension (nz),model.nz=200,1.5128,0.9740,73.63%,72.15%
+hparam_filters_32,Capacity (ngf/ndf),"model.ngf=32, model.ndf=32",1.1941,1.0860,75.33%,74.45%
+hparam_extra_layers_1,Conv Architecture,model.extra_layers=1,1.7522,1.0118,76.31%,75.89%
+hparam_slope_01,Activation Slope,model.leaky_relu_slope=0.1,1.3945,1.0315,75.81%,74.96%
+hparam_lr_5e4,Learning Rate,"lr_g=0.0005, lr_d=0.0005",1.1849,1.2421,80.10%,80.19%
+hparam_batch_64,Batch Size,data.batch_size=64,1.2479,1.1950,84.99%,84.84%
+hparam_kernel_5,Kernel Size (Extra Layers),"model.extra_layers=1, model.kernel_size=5",2.0052,1.0012,75.98%,75.97%

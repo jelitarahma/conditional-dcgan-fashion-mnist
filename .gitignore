@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.npz
+
+data/
+.pytest_cache/
+.coverage
+htmlcov/
+venv/
+.env
+
+# Kecualikan checkpoint model di folder outputs agar siap pakai tanpa perlu training ulang
+*.pt
+!outputs/**/*.pt
+

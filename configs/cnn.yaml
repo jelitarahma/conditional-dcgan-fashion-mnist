@@ -1,0 +1,24 @@
+device: auto
+
+data:
+  data_dir: data
+  batch_size: 64
+  test_batch_size: 128
+  num_workers: 0
+  pin_memory: true
+
+model:
+  in_channels: 1
+  num_classes: 10
+  conv_channels:
+    - 32
+    - 64
+    - 128
+  fc_dim: 256
+  dropout: 0.5
+
+training:
+  epochs: 15
+  lr: 0.001
+  weight_decay: 0.0001
+  mixed_precision: false
